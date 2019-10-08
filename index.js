@@ -23,8 +23,7 @@ data.forEach(item=>{
   value.innerHTML=item.value
   let description=document.createElement('p')
   description.innerHTML=item.description
-  let submit=document.createElement('button')
-  submit.innerHTML = item.submit
+
 
  
   izquierda.appendChild(ancor)
@@ -32,7 +31,7 @@ data.forEach(item=>{
   izquierda.appendChild(value)
 
   derecha.appendChild(description)
-  derecha.appendChild(submit)
+
 
   producto.appendChild(izquierda)
   producto.appendChild(derecha)
