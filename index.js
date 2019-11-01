@@ -27,7 +27,7 @@ function buildProduct(product){
 function buildProductsList(){
 
   products.forEach(item=>{
-    container.appendChild(buildProduct(item));
+    container.appendChild(buildProduct2(item));
     //buildProduct(item);
   
   })
